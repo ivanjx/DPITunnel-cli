@@ -27,6 +27,6 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/ivanjx/DPITunnel-cli:latest
-          cache-from: type=registry,ref=ghcr.io/ivanjx/DPITunnel-cli:latest
+          tags: ghcr.io/ivanjx/dpitunnel-cli:latest
+          cache-from: type=registry,ref=ghcr.io/ivanjx/dpitunnel-cli:latest
           cache-to: type=inline
